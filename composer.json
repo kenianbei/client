@@ -12,24 +12,24 @@
         }
     ],
     "require": {
-        "php": "^7.1",
+        "php": "^7 || ^8",
         "php-http/client-common": "^1.0 || ^2.0",
         "php-http/client-implementation": "^1.0",
         "php-http/httplug": "^1.0 || ^2.0",
         "php-http/message": "^1.0",
         "php-http/message-factory": "^1.0",
-        "php-xapi/exception": "^0.1 || ^0.2",
-        "php-xapi/model": "^1.0 || ^2.0 || ^3.0",
-        "php-xapi/serializer": "^2.0",
-        "php-xapi/serializer-implementation": "^2.0",
-        "php-xapi/symfony-serializer": "^2.0",
+        "php-xapi/exception": "*",
+        "php-xapi/model": "*",
+        "php-xapi/serializer": "*",
+        "php-xapi/serializer-implementation": "*",
+        "php-xapi/symfony-serializer": "*",
         "psr/http-message": "^1.0"
     },
     "require-dev": {
-        "phpspec/phpspec": "^2.4",
-        "php-http/mock-client": "^1.2",
-        "php-xapi/test-fixtures": "^1.0",
-        "symfony/phpunit-bridge": "^5.2"
+        "phpspec/phpspec": "*",
+        "php-http/mock-client": "*",
+        "php-xapi/test-fixtures": "*",
+        "symfony/phpunit-bridge": "*"
     },
     "minimum-stability": "dev",
     "suggest": {
